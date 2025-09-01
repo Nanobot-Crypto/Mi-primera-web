@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Back-end complete course</title>
+        <link rel="icon" href="data:image/png;base64,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">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+            body {
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+                background: linear-gradient(135deg, #f0f4ff, #d9e6ff);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem;
+                color: #2a2a72;
+                min-height: 100vh;
+                box-sizing: border-box;
+            }
+            h1 {
+                font-weight: 700;
+                font-size: 3rem;
+                margin-bottom: 1rem;
+                color: #1a237e;
+                text-shadow: 1px 1px 3px rgba(26,35,126,0.4);
+            }
+            .chart-container {
+                width: 90vw;
+                max-width: 900px;
+                background: #fff;
+                padding: 2rem;
+                border-radius: 18px;
+                box-shadow: 0 15px 25px rgba(26, 35, 126, 0.2);
+            }
+        </style>
+    </head>
+    <!--The backgound color applies to all the body-->
+    <body style="background-color:blanchedalmond;">
+        <h1 style="color:blueviolet">Back-end</h1>
+        <h2>This is <em>time-consuming</em></h2>
+        <!--Assuring that I will finish this course until the end-->
+        <p title="I will">
+            However, this time I will <b>finish the course.</b> <br> For next year I will start to carry out some projects
+        </p>
+        <hr>
+        <pre>
+            I am going to  <small>work hard</small> for one         <del>long</del>                <ins>hour</ins>
+            <mark>programming</mark> and learning every day.
+
+            I also like chemistry, tomorrow I will have to use H<sub>2</sub>SO<sub>4</sub>, which weighs 2<sup>8</sup>mg
+        </pre>
+        <hr>
+        <!--This closes the current tab-->
+        <a href="https://www.youtube.com/watch?v=nu_pCVPKzTk&list=PLWKjhJtqVAbn21gs5UnLhCQ82f923WCgM&index=4">Click this link to go to the video
+        </a>
+        <hr>
+        <img src="https://theweekinchess.com/images/forward_exchanges_aag.png" height="500" width="800" alt="This image showa a chess book" title="Chess book">
+        <hr>
+        <!--This doesn't close the current tab-->
+        <a href="https://google.com" target="_blank">Go to google</a>
+
+        <!--Links that go to another place within your web, email-->
+        <a href="mailto:marcostrebolledo@gmail.com">SEND ME AN EMAIL</a>
+
+        <!--Make tables-->
+        <hr>
+        <br>
+        <h2>MY TimeTABLE</h2>
+        <br>
+        <table>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Friday</th>
+            </tr>
+
+            <tr>
+                <td>Exercise</td>
+                <td>Exercise</td>
+                <td>Exercise</td>
+            </tr>
+
+            <tr>
+                <td>Calculation</td>
+                <td>Calculation</td>
+                <td>Chess class</td>
+            </tr>
+
+            <tr>
+                <td>Programming</td>
+                <td>Programming</td>
+                <td>programming</td>
+            </tr>
+        </table>
+
+        <!--Make lists & use div to make a section-->
+        <div style="background-color: rgb(208, 215, 8); color: rgb(72, 20, 1);">
+            <ui>
+                <li>
+                    Increase in temperature
+                </li>
+                <li>
+                    Decrease in pressure
+                </li>
+                <li>
+                    Chemical composition
+                </li>
+                <li>
+                    Presence of water
+                </li>
+                <li>
+                    This is the euro symbol: &euro;
+                </li>
+                <li>
+                    This are other symbols: &euro;, &dollar;,&#169;, &#174;
+                </li>
+            </ui>
+
+            <dl>
+                <dt>Increase in pressure</dt>
+                <dd>: increasing its density, rearranging materials</dd>
+                <dt>Increase in temperature</dt>
+                <dd>: changes associated with water losss</dd>
+                <dt>Presence of fluids</dt>
+                <dd>: increasing recrystallization</dd>
+            </dl>
+        </div>
+        
+        <iframe src="https://theweekinchess.com/twic" height="600" width="1200" style="border:none"></iframe>
+
+        <!--Forms-->
+        <form action="form.html" method="GET">
+            <label for="username">Name</label> <br>
+            <input type="text" name="username" id="username"> <br>
+            <label for="age">Age</label> <br>
+            <input type="number" name="age" id="age"> <br>
+            
+            <label for="cookies">Accept</label> <br>
+            <input type="checkbox" name="cookies" id="cookies" value="Accept"> <br>
+            <label for="yes/no">Deny</label> <br>
+            <input type="checkbox" name="cookies" id="cookies" value="Deny"> <br>
+
+                        <label for="yes/no">Yes</label>
+            <input type="radio" name="yes/no" id="yes/no" value="yes">
+            <label for="yes/no">No</label>
+            <input type="radio" name="yes/no" id="yes/no" value="no">
+
+            <input type="submit" value="SEND">
+        </form>
+        <div>
+
+
+<body>
+    <h1>Monura de mamá</h1>
+    <div class="chart-container">
+        <canvas id="monuraChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('monuraChart').getContext('2d');
+
+        // Labels: years 1975 to 2025 inclusive
+        const labels = [];
+        for(let year = 1975; year <= 2025; year++) {
+        labels.push(year.toString());
+        }
+
+        // Data generation with trend:
+        // 1975: 80%
+        // gradually decrease to 50% at 2000
+        // then increase with slight dips to 150% at 2025
+        // We'll create a smooth curve approx with piecewise linear segments and some fluctuations.
+
+        // Helper function for linear interpolation
+        function lerp(a, b, t) {
+        return a + t * (b - a);
+        }
+
+        const dataPoints = [];
+
+        // From 1975 to 2000 (26 years): decrease 80 to 50
+        // Linear step down each year:
+        for(let year=1975; year<=2000; year++) {
+        let t = (year - 1975) / (2000 - 1975); // 0 to 1
+        let value = lerp(80, 50, t);
+        dataPoints.push(value);
+        }
+        // From 2001 to 2025 (25 years): increase 50 to 150 with small dips every 3-4 years
+        // We will add slight sine wave pattern for slight dips while rising
+
+        // Calculate increase with oscillations
+        for(let year=2001; year<=2025; year++) {
+        let t = (year - 2001) / (2025 - 2001); // 0 to 1
+        // base rising trend
+        let base = lerp(50, 150, t);
+        // slight dips: add sine oscillation with small amplitude modulating every 4 years
+        let oscillation = 6 * Math.sin((year - 2000) * Math.PI / 4);
+        dataPoints.push(base + oscillation);
+        }
+
+        const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Monura (%)',
+            data: dataPoints,
+            fill: true,
+            borderColor: '#3f51b5',
+            backgroundColor: 'rgba(63, 81, 181, 0.25)',
+            tension: 0.3,
+            pointBackgroundColor: '#1a237e',
+            pointRadius: 4,
+            pointHoverRadius: 6,
+            borderWidth: 3,
+        }]
+        };
+
+        const options = {
+        responsive: true,
+        plugins: {
+            title: {
+            display: false
+            },
+            tooltip: {
+            callbacks: {
+                label: function(context) {
+                return context.parsed.y.toFixed(1) + '%';
+                }
+            }
+            },
+            legend: {
+            labels: {
+                color: '#1a237e',
+                font: {
+                size: 16,
+                weight: 'bold'
+                }
+            }
+            }
+        },
+        scales: {
+            y: {
+            beginAtZero: false,
+            min: 40,
+            max: 160,
+            ticks: {
+                color: '#1a237e',
+                font: {
+                size: 14
+                },
+                callback: function(value) {
+                return value + '%';
+                }
+            },
+            grid: {
+                color: 'rgba(26, 35, 126, 0.1)'
+            },
+            title: {
+                display: true,
+                text: 'Porcentaje (%)',
+                color: '#1a237e',
+                font: {
+                size: 16,
+                weight: '600'
+                }
+            }
+            },
+            x: {
+            ticks: {
+                color: '#1a237e',
+                font: {
+                size: 14,
+                weight: '500'
+                },
+                maxRotation: 90,
+                minRotation: 45,
+                autoSkip: true,
+                maxTicksLimit: 15
+            },
+            grid: {
+                color: 'rgba(26, 35, 126, 0.1)'
+            },
+            title: {
+                display: true,
+                text: 'Año',
+                color: '#1a237e',
+                font: {
+                size: 16,
+                weight: '600'
+                }
+            }
+            }
+        }
+        }
+
+        const monuraChart = new Chart(ctx, {
+        type: 'line',
+        data: data,
+        options: options
+        });
+    </script>
+    </body>
+    </html>
+
+
+            </div>
+        </body>
+</html>
